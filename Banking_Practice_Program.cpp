@@ -12,7 +12,6 @@ int main(){
     int choice = 0;
     cout << "\033[2J\033[1;1H"; //Used to clear sccreen for output
     do{
-        //cout << "\033[2J\033[1;1H"; //Used to clear sccreen for output
         cout << "**************** BANK OF EKANSH ********************" << endl;
         cout << "Enter your choice : " << endl;
         cout << "****************************************************" << endl;
@@ -26,18 +25,18 @@ int main(){
 
         switch (choice)
         {
-        case 1: cout << "\033[2J\033[1;1H"; //Used to clear sccreen for output
+        case 1: cout << "\033[2J\033[1;1H";
                 show_bal(bal);
                 break;
-        case 2: cout << "\033[2J\033[1;1H"; //Used to clear sccreen for output
+        case 2: cout << "\033[2J\033[1;1H";
                 bal += depo();
                 show_bal(bal);
                 break;
-        case 3: cout << "\033[2J\033[1;1H"; //Used to clear sccreen for output
+        case 3: cout << "\033[2J\033[1;1H";
                 bal -= withdrw(bal);
                 show_bal(bal);
                 break;
-        case 4: cout << "\033[2J\033[1;1H"; //Used to clear sccreen for output
+        case 4: cout << "\033[2J\033[1;1H";
                 cout << "Thanks for visiting ! " << endl;
                 break;
         default: cout << "Invalid Choice" << endl;
@@ -46,7 +45,7 @@ int main(){
 }
 
 void show_bal(double bal){
-    cout << "Your balance is ₹ " << setprecision(2) << fixed <<bal << endl; //this will display our balance by keeping a space of 2 decimal points for precision.
+    cout << "Your balance is ₹ " << setprecision(2) << fixed <<bal << endl; //this will display our balance by keeping 2 decimal points for precision while showing balance.
 }
 double depo(){
     

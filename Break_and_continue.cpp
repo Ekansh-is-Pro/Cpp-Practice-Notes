@@ -14,7 +14,7 @@ int main(){
     }
     if(i == 13){
         cout << "We have broken out of this loop" << endl;
-        break;/*If we only use this then we notice that the loop immediately ends with 12 as being the last number in the list*/
+        break; /*If we only use this then we notice that the loop immediately ends with 12 as being the last number in the list*/
     }
     cout << i << endl;
    }
