@@ -3,7 +3,7 @@
 using namespace std;
 
 /*
-Const Parameter = parameter that is effectively read-only code is more secure & conveys intent useful for 
+Const Parameter = parameter that is effectively read-only cocde is more secure & conveys intent useful for 
                   references and pointers. By applying this we can prevent anyone from changing or reassigning 
                   that variable. Making it immutable.
 */
