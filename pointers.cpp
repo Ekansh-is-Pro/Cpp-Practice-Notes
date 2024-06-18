@@ -8,6 +8,9 @@ Pointers = variable that stores a memory address of another variable
 
             & = address-of operator
             * = derefernce operator
+
+For refernce or better explanantion : https://youtu.be/2ybLD6_2gKM?si=pHviD5ZC1K2hPgQ8
+
 */
 
 int main(){
