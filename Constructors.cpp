@@ -5,7 +5,7 @@ using namespace std;
 /*
 Constructors - Special method that is automatically called when an object is instantiated(represent)
                useful for assigning values to the attributes as arguments.
-               Basically using Constructors we don't need to manuaaly assign the values to a variable it'll do it for us automatically
+               Basically using Constructors we don't need to manualy assign the values to a variable it'll do it for us automatically
                
 */
 
