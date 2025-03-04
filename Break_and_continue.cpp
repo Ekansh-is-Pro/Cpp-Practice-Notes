@@ -10,7 +10,7 @@ int main(){
    for(int i = 1 ; i <= 20 ; i++){
     if(i == 5){
         cout<<"5 is now deleted"<<endl;
-        continue; /* This will skip the iteration when i = 7 */
+        continue; /* This will skip the iteration when i = 5 */
     }
     if(i == 13){
         cout << "We have broken out of this loop" << endl;
