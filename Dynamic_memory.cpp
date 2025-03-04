@@ -7,7 +7,7 @@ Dynamic Memory - Memory that is alloccated after the program is already
                  Compiled and Running. Use the 'new' operator to allocate in the heap
                  rather than the stack
 
-                 Useful when we don't know how muh memory we'll need. Makes
+                 Useful when we don't know how much memory we'll need. Makes
                  our programs more flexible, especially when accepting user input
 */
 
