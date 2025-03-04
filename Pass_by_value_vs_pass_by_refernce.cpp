@@ -21,7 +21,7 @@ int main(){
 /* 
    
    Now we will rather make a function to do this job for us rather than doing this manually 
-   If we run this wihtout the & thn we call this PASS BY VALUE where we just create copy of the data are giving the function
+   If we run this wihtout the & then we call this PASS BY VALUE where we just create copy of the data are giving the function
    hence in reality it just swapped the value of copy but not the actual value
    But when we add the memory address for the input then we call this PASS BY REFERCE where we are indicating the function where
    the acutal variable is to be swapped upon.
