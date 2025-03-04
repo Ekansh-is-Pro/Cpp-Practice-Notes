@@ -3,7 +3,7 @@
 using namespace std;
 
 /*
-Enums or Enumeration - A user-dfined data type that consists of 
+Enums or Enumeration - A user-defined data type that consists of 
                        paired named integer constants. GREAT if you have
                        a set of potential options.
 */
